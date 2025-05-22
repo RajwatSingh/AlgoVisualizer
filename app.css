@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f2f2f2;
+  }
+  
+  #controls {
+    margin-bottom: 20px;
+  }
+  
+  #grid {
+    display: grid;
+    grid-template-columns: repeat(20, 25px);
+    grid-template-rows: repeat(20, 25px);
+    gap: 1px;
+    justify-content: center;
+  }
+  
+  .cell {
+    width: 25px;
+    height: 25px;
+    background-color: burlywood;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+
+  .cell.swamp {
+    background-color: lightgreen;
+  }
+
+  .cell.sand{
+    background-color: sandybrown;
+  }
+  
+  .cell.start {
+    background-color: green;
+  }
+  
+  .cell.end {
+    background-color: red;
+  }
+  
+  .cell.wall {
+    background-color: black;
+  }         
+
+  .cell.visited {
+    background-color: lightblue;
+  }
+  
+  .cell.path {
+    background-color: yellow;
+  }
+
+  .path{
+    background-color: yellow;
+  }
